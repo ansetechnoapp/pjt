@@ -22,3 +22,5 @@ await Promise.all(
    	 await fs.writeFile(file, html)
     })
 )
+
+// i was in package.json "build": "astro check && astro build && node process-html.mjs",
